@@ -1,0 +1,16 @@
+# Generated demo piles and sorted output are local-only, never committed
+legal-sort-demo/
+legal-sort-demo-400/
+sorted_output/
+*_sorted/
+_NEEDS_REVIEW/
+
+# Python
+__pycache__/
+*.pyc
+
+# Real documents must never enter this repo (see SECURITY.md)
+real_docs/
+*.pem
+*.key
+.env
